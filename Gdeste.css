@@ -1,15 +1,30 @@
 /*IBM PLEX SANS e JETBRAINS MONO*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+
 body{
     margin: 0;
     padding: 0;
-    background-color: #EBF3F3;
+    background-color: #D4E7E7;
     font-family: "IBM Plex Sans", sans-serif;
 }
 
+/*.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }*/
+
 html{
     scroll-behavior: smooth;
+}
+
+p{
+    font-family: roboto;
+    font-size: medium;
 }
 
 /*Cabeçalho*/
@@ -94,7 +109,7 @@ html{
     margin:0;
     padding:0;
     font-size: 70px;
-    margin-left: 6%;
+    text-align: center;
     font-weight: 400;
 }
 
@@ -102,12 +117,13 @@ html{
     width: 80%;
     height: 50px;
     margin: 20px;
+    text-align: center;
 }
 
 .text-info{
     height: 40px;
     width: 80%;
-    margin-left: 6%;
+    text-align: center;
 
 }
 .cards-info{
@@ -151,8 +167,7 @@ html{
     height: 80px;
     width: 100%;
     background-color: #14213D;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius: 10px;
+    border-radius:10px 10px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,17 +210,16 @@ html{
 
 .div-text-equipes{
     height: 90px;
-    width: 80%;
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: end;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .text-equipes{
+    margin:0;
     font-size:70px ;
     font-weight: 400;
-    margin-right: 6%;
 
 }
 
@@ -352,7 +366,6 @@ html{
 
 .div-text-publicacoes{
     height: 90px;
-    width: 80%;
     margin-top: 30px;
 }
 
@@ -517,7 +530,6 @@ html{
 
 .div-text-instalacao{
     height: 90px;
-    width: 80%;
     margin-top: 30px;
     display: flex;
     justify-content: end;
@@ -596,7 +608,6 @@ html{
 
 .div-text-institucional{
     height: 100px;
-    width: 80%;
     margin-top: 40px;
 
 }
