@@ -95,6 +95,18 @@ p{
 
 /*Pagina O que Fazemos*/
 
+
+.iconestopo{
+    align-items: center;
+    display: block;
+    width: 70px; 
+  height: auto;
+  max-width: 100%;
+  margin:auto;
+  margin-top: 20px;
+}
+
+
 .NOS{
     margin:0;
     padding:0;
@@ -145,7 +157,7 @@ p{
 }
 
 .div-cards{
-    height: 320px;
+    height: 360px;
     width: 310px;
     border:transparent;
     background-color: white;
@@ -164,7 +176,7 @@ p{
 }
 
 .text{
-    margin-top: 50px;
+    margin-top: 10px;
     height:200px;
     width: 75%;
     text-align: center;
@@ -378,6 +390,7 @@ p{
 .text-publicacoes{
     font-size: 70px;
     margin: 0;
+    color:#14213D;
 }
 
 .div-publicacoes{
