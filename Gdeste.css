@@ -171,6 +171,7 @@ p{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -622,6 +623,15 @@ p{
     scroll-margin-top: 80px;
 }
 
+.div-institucional-cards{
+    height: 360px;
+    width: 310px;
+    border:transparent;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgb(0, 0, 0);
+}
+
 .div-text-institucional{
     height: 100px;
     margin-top: 40px;
@@ -684,6 +694,15 @@ p{
 .overlay{
     display: none;
     transition: all 0.2s ease-in-out
+}
+
+.cardtitulo{
+    align-items: center;
+    color: #3455B7;
+    font: bolder;
+    font-size: x-large;
+    text-align: center;
+   margin: auto;
 }
 
 .overlay-active{
